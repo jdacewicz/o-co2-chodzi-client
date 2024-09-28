@@ -1,3 +1,11 @@
-h3 {
+#logo {
+    @apply flex justify-center items-center ;
+}
+
+h2 {
     @apply text-gray-50;
+}
+
+#co2 {
+    @apply italic font-normal text-yellow-400; 
 }

@@ -1,5 +1,5 @@
 .search-bar {
-    @apply flex justify-start gap-2 border p-2 mb-2 mx-6 bg-gray-100;
+    @apply flex justify-start gap-2 border p-2 mb-2 mx-2 rounded-md bg-gray-100;
 }
 
 .search-bar svg {
