@@ -1,3 +1,23 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+h1 {
+    @apply text-2xl lg:text-3xl;
+}
+
+h2 {
+   @apply text-lg lg:text-xl;
+}
+
+h3 {
+    @apply text-base lg:text-lg;
+}
+
+h4 {
+    @apply text-sm lg:text-base;
+}
+
+.btn-primary {
+    @apply p-2 bg-red-200 m-1 rounded-md;
+}

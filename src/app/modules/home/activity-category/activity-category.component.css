@@ -1,0 +1,11 @@
+#activity-category {
+    @apply bg-gray-50;
+}
+
+#activity-description {
+    @apply p-4;
+}
+
+#activity-image {
+    @apply w-1/2;
+}
