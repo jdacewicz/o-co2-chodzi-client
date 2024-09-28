@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+    @apply font-sans;
+}
+
 h1 {
     @apply text-2xl lg:text-3xl;
 }
@@ -19,5 +23,5 @@ h4 {
 }
 
 .btn-primary {
-    @apply p-2 bg-red-200 m-1 rounded-md;
+    @apply p-2 bg-red-200 text-gray-50 bg-gradient-to-r from-lime-600 to-green-400 font-bold;
 }
