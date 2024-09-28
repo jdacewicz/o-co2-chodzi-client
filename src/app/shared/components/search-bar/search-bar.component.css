@@ -1,3 +1,11 @@
 .search-bar {
-    @apply border rounded-md p-2 mb-2 mx-2 bg-gray-100;
+    @apply flex justify-start gap-2 border p-2 mb-2 mx-6 bg-gray-100;
+}
+
+.search-bar svg {
+    @apply w-6 h-6;
+}
+
+.search-bar input {
+    @apply w-full bg-gray-100;
 }
