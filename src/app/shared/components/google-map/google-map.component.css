@@ -1,0 +1,12 @@
+.map-container {
+  @apply h-72 w-full p-2;
+}
+
+.map-frame {
+  border: 2px solid black;
+  height: 100%;
+}
+
+#map {
+  height: 100%;
+}
