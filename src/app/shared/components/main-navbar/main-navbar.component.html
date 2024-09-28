@@ -1,0 +1,5 @@
+<div id="main-navbar">
+    <app-logo></app-logo>
+    <app-menu-button (click)="toggleVisibility()" ></app-menu-button>
+</div>
+<app-menu *ngIf="isVisible"></app-menu>
