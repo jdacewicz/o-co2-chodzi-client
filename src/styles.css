@@ -23,5 +23,9 @@ h4 {
 }
 
 .btn-primary {
-    @apply p-2 bg-red-200 text-gray-50 bg-green-500 rounded-xl font-bold;
+    @apply p-2 text-gray-50 bg-green-500 rounded-xl font-bold;
+}
+
+.btn-secoundary {
+    @apply p-2 text-gray-50 bg-yellow-500 rounded-xl font-bold;
 }
