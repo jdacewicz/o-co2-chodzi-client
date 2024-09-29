@@ -1,0 +1,11 @@
+.search-bar {
+    @apply flex justify-start gap-2 border p-2 mb-2 mx-2 rounded-md bg-gray-100;
+}
+
+.search-bar svg {
+    @apply w-6 h-6;
+}
+
+.search-bar input {
+    @apply w-full bg-gray-100;
+}

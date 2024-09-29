@@ -1,0 +1,4 @@
+#main-navbar {
+    @apply flex justify-between items-center p-4 bg-leaves opacity-100 z-10 bg-cover bg-center font-bold text-gray-50 shadow-lg;
+}
+

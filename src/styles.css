@@ -1,3 +1,31 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+    @apply font-sans;
+}
+
+h1 {
+    @apply text-2xl lg:text-3xl;
+}
+
+h2 {
+   @apply text-lg lg:text-xl;
+}
+
+h3 {
+    @apply text-base lg:text-lg;
+}
+
+h4 {
+    @apply text-xs lg:text-base;
+}
+
+.btn-primary {
+    @apply p-2 text-gray-50 bg-green-500 rounded-xl font-bold;
+}
+
+.btn-secoundary {
+    @apply p-2 text-gray-50 bg-yellow-500 rounded-xl font-bold;
+}
