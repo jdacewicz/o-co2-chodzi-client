@@ -33,8 +33,12 @@
         <app-google-map></app-google-map>
     </div>
     <div class="activity-creation-stage">
-        <h3>Slogan TODO</h3>
-        <app-search-bar></app-search-bar>
+        <h3 class="text-center text-gray-500">Rejestrowanie nowej aktywności</h3>
+        <app-search-bar (showCategory)="onShowCategory()">
+    </app-search-bar>
+
+    <div *ngIf="showCategory">
         <app-activity-category></app-activity-category>
+    </div>
     </div>
 </div>

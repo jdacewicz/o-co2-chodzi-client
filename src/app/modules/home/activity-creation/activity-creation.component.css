@@ -3,7 +3,7 @@
 }
 
 #slogan {
-    @apply text-gray-400 text-center italic;
+    @apply text-gray-500 text-center italic;
 }
 
 #activity-creation-box h4 {
